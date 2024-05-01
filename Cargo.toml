@@ -1,0 +1,8 @@
+[package]
+name = "chat-tokio-stream"
+version = "0.1.0"
+edition = "2021"
+authors = ["TheDIM47"]
+
+[dependencies]
+tokio = { version = "1", features = ["sync", "tokio-macros", "io-util", "rt-multi-thread", "net", "macros"] }
